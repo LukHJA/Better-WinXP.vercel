@@ -1,0 +1,4 @@
+function changeonExplorerbutton() {
+  var imgButton = document.querySelector("#root > div > div:nth-child(2) > div.sc-kAzzGY.mvYgZ > div.app__content > div > div > div > div.com__content__left > div:nth-child(1) > div.com__content__left__card__header > img");
+  imgButton.outerHTML = ['<button id="CloseButtonInExplorer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABTUlEQVR42r1US07DMBDNdVixZMMBcgyOwTV6CBbZoYLUqojSuKUIFj1AVSmlrUBKk9KGEOfnGE9So4Cd2giJkUaxo8zze28mNoz/iA5anP0ZpLcHQQ/OF9h6E1quF5b7x8nqWI+N7ZzzdYRTKgtCCloeOpgiLVAoUMV2h+mNPbMOAmU5EQqN0wspIJNeKmnfzkWW4IsMiGc9CkaeFJVkIfqjmZWkuRTo55qDgQpe3x275jfAJiDZO2CVZIS6fmhK2TWZLfMsZ02KmRI+MtrmN0n8iDPa2ElvEyIdz0AisAqilCpmrDr5kGfg1TsD8t6i1vDJET3rDJ5bdbk8gQVP2OOkYuTtMNL+R6MkKz2BJ18DGz/AwXqLhcnvjn1TCeoH8RQSmIAs2TeX/eWJNsshuykg72o3ya9YXdkLS3UIMBImXxXX9suR0LD7V4HlJ2GeRKYqB6UhAAAAAElFTkSuQmCC" alt="" class="com__content__left__card__header__img"><button>']; //Change HTML
+}
